@@ -44,4 +44,10 @@ flow-delta-out/
 
 # FlowDelta smoke output
 flow-delta-out/
+<<<<<<< HEAD
 >>>>>>> fdb9629 (first commit)
+=======
+
+# FlowDelta smoke output
+flow-delta-out/
+>>>>>>> 93c7710 (smoke: seed fixture befores (20260609023824337))

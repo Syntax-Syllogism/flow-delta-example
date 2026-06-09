@@ -3,6 +3,7 @@
     <apiVersion>66.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <decisions>
         <name>Includes_Jawn</name>
@@ -24,6 +25,8 @@
         </rules>
     </decisions>
 >>>>>>> fdb9629 (first commit)
+=======
+>>>>>>> 93c7710 (smoke: seed fixture befores (20260609023824337))
     <environments>Default</environments>
     <formulas>
         <name>AddJawnToName</name>
@@ -57,11 +60,14 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <connector>
             <targetReference>Includes_Jawn</targetReference>
         </connector>
 >>>>>>> fdb9629 (first commit)
+=======
+>>>>>>> 93c7710 (smoke: seed fixture befores (20260609023824337))
         <inputAssignments>
             <field>Name</field>
             <value>
