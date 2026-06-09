@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 # FlowDelta smoke output
@@ -7,3 +8,40 @@ flexipage-delta-out/
 .sfdx/
 .sf/
 .vscode/
+=======
+.sf/
+.sfdx/
+.vscode/
+.history/
+*.profile-meta.xml
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+
+# FlowDelta smoke output
+flow-delta-out/
+>>>>>>> fdb9629 (first commit)

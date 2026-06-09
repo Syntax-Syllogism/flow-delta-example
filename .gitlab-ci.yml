@@ -6,17 +6,27 @@ FlowDelta:
     GIT_DEPTH: 0
   before_script:
     - apk add --no-cache git
+<<<<<<< HEAD
     - npm install --no-save "./flow-delta.tgz"
   script:
     - |
       ./node_modules/.bin/flow-delta \
+=======
+  script:
+    - |
+      npx --yes -p @syntax-syllogism/flow-delta@^0.1 flow-delta \
+>>>>>>> fdb9629 (first commit)
         --repo . \
         --from "$CI_MERGE_REQUEST_DIFF_BASE_SHA" \
         --to   "$CI_COMMIT_SHA" \
         --path 'force-app/**/*.flow-meta.xml' \
         --changed-only \
         --out flow-delta-out --json
+<<<<<<< HEAD
     - ./node_modules/.bin/flow-delta-gitlab --in flow-delta-out
+=======
+    - npx --yes -p @syntax-syllogism/flow-delta@^0.1 flow-delta-gitlab --in flow-delta-out
+>>>>>>> fdb9629 (first commit)
   artifacts:
     paths: [flow-delta-out]
     expire_in: 30 days
