@@ -16,6 +16,7 @@ flexipage-delta-out/
 *.profile-meta.xml
 
 # FlowDelta smoke output
+<<<<<<< HEAD
 flow-delta-out/
 
 # FlowDelta smoke output
@@ -63,3 +64,6 @@ flow-delta-out/
 # FlowDelta smoke output
 flow-delta-out/
 >>>>>>> 3cf68c8 (smoke: seed fixture befores (20260613131506494))
+=======
+flow-delta-out/
+>>>>>>> 1a4c6c5 (smoke: seed fixture befores (20260613173402056))

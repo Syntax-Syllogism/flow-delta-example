@@ -7,6 +7,7 @@ FlowDelta:
   before_script:
     - apk add --no-cache git
 <<<<<<< HEAD
+<<<<<<< HEAD
     - npm install --no-save "./flow-delta.tgz"
   script:
     - |
@@ -16,6 +17,12 @@ FlowDelta:
     - |
       npx --yes -p @syntax-syllogism/flow-delta@^0.1 flow-delta \
 >>>>>>> fdb9629 (first commit)
+=======
+    - npm install --no-save "./flow-delta.tgz"
+  script:
+    - |
+      ./node_modules/.bin/flow-delta \
+>>>>>>> 1a4c6c5 (smoke: seed fixture befores (20260613173402056))
         --repo . \
         --from "$CI_MERGE_REQUEST_DIFF_BASE_SHA" \
         --to   "$CI_COMMIT_SHA" \
@@ -23,10 +30,14 @@ FlowDelta:
         --changed-only \
         --out flow-delta-out --json
 <<<<<<< HEAD
+<<<<<<< HEAD
     - ./node_modules/.bin/flow-delta-gitlab --in flow-delta-out
 =======
     - npx --yes -p @syntax-syllogism/flow-delta@^0.1 flow-delta-gitlab --in flow-delta-out
 >>>>>>> fdb9629 (first commit)
+=======
+    - ./node_modules/.bin/flow-delta-gitlab --in flow-delta-out
+>>>>>>> 1a4c6c5 (smoke: seed fixture befores (20260613173402056))
   artifacts:
     paths: [flow-delta-out]
     expire_in: 30 days
