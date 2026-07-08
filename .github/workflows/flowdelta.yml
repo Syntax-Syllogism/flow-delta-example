@@ -40,4 +40,6 @@ jobs:
         run: node scripts/r2-publish.mjs flow-delta-out "$GITHUB_REPOSITORY/${{ github.event.number }}/$GITHUB_SHA" > flow-delta-out/urls.json
         continue-on-error: true
       - run: ./node_modules/.bin/flow-delta-github --in flow-delta-out --artifact-urls flow-delta-out/urls.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
