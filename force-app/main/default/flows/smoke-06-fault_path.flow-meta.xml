@@ -22,6 +22,16 @@
             </value>
         </assignmentItems>
     </assignments>
+    <customErrors>
+        <name>Error_on_Get_Children</name>
+        <label>Error on Get Children</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <customErrorMessages>
+            <errorMessage>{!ErrorMessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
     <decisions>
         <name>Includes_Jawn</name>
         <label>Includes Jawn</label>
@@ -39,6 +49,13 @@
                 <operator>Contains</operator>
                 <rightValue>
                     <stringValue>&quot;Jawn&quot;</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.CreatedById</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
             <label>Yes</label>
@@ -80,6 +97,9 @@
         <connector>
             <targetReference>Jawnify</targetReference>
         </connector>
+        <faultConnector>
+            <targetReference>Error_on_Get_Children</targetReference>
+        </faultConnector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>AccountId</field>
@@ -119,4 +139,9 @@
         <triggerType>RecordBeforeSave</triggerType>
     </start>
     <status>Draft</status>
+    <textTemplates>
+        <name>ErrorMessage</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;ERROR! ERROR! ERROR!&lt;/p&gt;</text>
+    </textTemplates>
 </Flow>
