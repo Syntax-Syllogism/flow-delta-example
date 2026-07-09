@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 
+=======
+.sf/
+.sfdx/
+.vscode/
+.history/
+*.profile-meta.xml
+>>>>>>> 1a4c6c52418345e4e05e2060765090895b22d11f
 
 # FlowDelta smoke output
 flow-delta-out/
