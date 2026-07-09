@@ -32,8 +32,8 @@
     <recordUpdates>
         <name>Jawnify</name>
         <label>Jawnify</label>
-        <locationX>170</locationX>
-        <locationY>642</locationY>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
         <inputAssignments>
             <field>Name</field>
             <value>
@@ -43,8 +43,8 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>330</locationX>
-        <locationY>48</locationY>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
         <connector>
             <targetReference>Jawnify</targetReference>
         </connector>

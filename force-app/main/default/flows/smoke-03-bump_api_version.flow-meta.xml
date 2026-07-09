@@ -70,8 +70,7 @@
     <nameSegment>TriggerActionFlowAddError</nameSegment>
     <versionSegment>1</versionSegment>
   </actionCalls>
-  <apiVersion>60.0</apiVersion>
-    <runInMode>SystemModeWithoutSharing</runInMode>
+  <apiVersion>59.0</apiVersion>
   <assignments>
     <name>Populate_Tag</name>
     <label>Populate Tag</label>

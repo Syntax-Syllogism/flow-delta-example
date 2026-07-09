@@ -208,7 +208,7 @@
       <targetReference>Get_Aurora_Tag_Definition</targetReference>
     </connector>
   </start>
-  <status>Draft</status>
+  <status>Active</status>
   <variables>
     <name>record</name>
     <dataType>SObject</dataType>

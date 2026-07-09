@@ -1,0 +1,23 @@
+FlowDelta:
+  image: node:24-alpine
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  variables:
+    GIT_DEPTH: 0
+  before_script:
+    - apk add --no-cache git
+    - npm install --no-save "./flow-delta.tgz"
+  script:
+    - |
+      ./node_modules/.bin/flow-delta \
+        --repo . \
+        --from "$CI_MERGE_REQUEST_DIFF_BASE_SHA" \
+        --to   "$CI_COMMIT_SHA" \
+        --path 'force-app/**/*.flow-meta.xml' \
+        --changed-only \
+        --out flow-delta-out --json
+    - ./node_modules/.bin/flow-delta-gitlab --in flow-delta-out
+  artifacts:
+    paths: [flow-delta-out]
+    expire_in: 30 days
+  allow_failure: true
