@@ -1,0 +1,13 @@
+<FlexiPage>
+  <masterLabel>smoke-01-diff-add_component</masterLabel>
+  <type>RecordPage</type>
+  <flexiPageRegions>
+    <name>main</name>
+    <type>Region</type>
+    <itemInstances>
+      <componentInstance>
+        <componentName>force:detailPanel</componentName>
+      </componentInstance>
+    </itemInstances>
+  </flexiPageRegions>
+</FlexiPage>
