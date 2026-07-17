@@ -25,10 +25,11 @@ FlowDelta:
 >>>>>>> 1a4c6c5 (smoke: seed fixture befores (20260613173402056))
         --repo . \
         --from "$CI_MERGE_REQUEST_DIFF_BASE_SHA" \
-        --to   "$CI_COMMIT_SHA" \
+        --to   "${CI_MERGE_REQUEST_SOURCE_BRANCH_SHA:-$CI_COMMIT_SHA}" \
         --path 'force-app/**/*.flow-meta.xml' \
         --changed-only \
         --out flow-delta-out --json
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     - ./node_modules/.bin/flow-delta-gitlab --in flow-delta-out
@@ -38,7 +39,19 @@ FlowDelta:
 =======
     - ./node_modules/.bin/flow-delta-gitlab --in flow-delta-out
 >>>>>>> 1a4c6c5 (smoke: seed fixture befores (20260613173402056))
+=======
+    - |
+      ./node_modules/.bin/flexipage-delta \
+        --repo . \
+        --from "$CI_MERGE_REQUEST_DIFF_BASE_SHA" \
+        --to   "${CI_MERGE_REQUEST_SOURCE_BRANCH_SHA:-$CI_COMMIT_SHA}" \
+        --path 'force-app/**/*.flexipage-meta.xml' \
+        --changed-only \
+        --out flexipage-delta-out --json
+    - ./node_modules/.bin/flow-delta-gitlab --in flow-delta-out
+    - ./node_modules/.bin/flexipage-delta-gitlab --in flexipage-delta-out
+>>>>>>> 06c4b16 (smoke: seed fixture befores (20260717020019115))
   artifacts:
-    paths: [flow-delta-out]
+    paths: [flow-delta-out, flexipage-delta-out]
     expire_in: 30 days
   allow_failure: true
