@@ -5,10 +5,24 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>showLegacyActivityComposer</name>
-                    <value>false</value>
+                    <value>true</value>
                 </componentInstanceProperties>
                 <componentName>runtime_sales_activities:activityPanel</componentName>
                 <identifier>runtime_sales_activities_activityPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p&gt;Added component&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText4</identifier>
             </componentInstance>
         </itemInstances>
         <name>header</name>
@@ -25,12 +39,6 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>devops_testing:testSuiteExecutionOverviewLayout</componentName>
-                <identifier>devops_testing_testSuiteExecutionOverviewLayout</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>footer</name>
         <type>Region</type>
     </flexiPageRegions>
