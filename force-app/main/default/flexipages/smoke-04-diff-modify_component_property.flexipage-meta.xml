@@ -9,7 +9,7 @@
         <componentName>force:highlightsPanel</componentName>
         <componentInstanceProperties>
           <name>numVisibleActions</name>
-          <value>3</value>
+          <value>5</value>
         </componentInstanceProperties>
       </componentInstance>
     </itemInstances>
