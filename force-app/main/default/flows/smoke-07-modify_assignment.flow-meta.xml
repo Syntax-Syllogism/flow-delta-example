@@ -14,6 +14,13 @@
                 <elementReference>AddJawnToName</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Description</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>AddJawnToName</elementReference>
+            </value>
+        </assignmentItems>
     </assignments>
     <decisions>
         <name>Includes_Jawn</name>
