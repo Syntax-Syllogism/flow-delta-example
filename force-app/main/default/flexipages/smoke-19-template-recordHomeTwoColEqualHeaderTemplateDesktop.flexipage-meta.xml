@@ -90,7 +90,7 @@
         <name>rightcol</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>smoke-18-template-recordHomeTwoColEqualHeaderTemplateDesktop</masterLabel>
+    <masterLabel>smoke-19-template-recordHomeTwoColEqualHeaderTemplateDesktop</masterLabel>
     <sobjectType>Address</sobjectType>
     <template>
         <name>flexipage:recordHomeTwoColEqualHeaderTemplateDesktop</name>

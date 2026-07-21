@@ -48,7 +48,7 @@
         <name>rightsidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>smoke-17-template-recordHomeThreeColHeaderTemplateDesktop</masterLabel>
+    <masterLabel>smoke-18-template-recordHomeThreeColHeaderTemplateDesktop</masterLabel>
     <sobjectType>Lead</sobjectType>
     <template>
         <name>flexipage:recordHomeThreeColHeaderTemplateDesktop</name>

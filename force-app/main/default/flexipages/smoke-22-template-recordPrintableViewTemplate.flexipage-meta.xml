@@ -34,7 +34,7 @@
         <name>footer</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>smoke-21-template-recordPrintableViewTemplate</masterLabel>
+    <masterLabel>smoke-22-template-recordPrintableViewTemplate</masterLabel>
     <sobjectType>Contract</sobjectType>
     <template>
         <name>flexipage:recordPrintableViewTemplate</name>

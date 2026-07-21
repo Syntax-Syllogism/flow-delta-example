@@ -56,7 +56,7 @@
         <name>rightsidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>smoke-14-template-recordHomePinnedHeaderTemplateDesktop</masterLabel>
+    <masterLabel>smoke-15-template-recordHomePinnedHeaderTemplateDesktop</masterLabel>
     <sobjectType>WorkPlan</sobjectType>
     <template>
         <name>flexipage:recordHomePinnedHeaderTemplateDesktop</name>

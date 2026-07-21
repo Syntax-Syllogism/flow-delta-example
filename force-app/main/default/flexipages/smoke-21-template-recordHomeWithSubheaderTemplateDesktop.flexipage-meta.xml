@@ -7,15 +7,25 @@
                     <name>decorate</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>richTextValue</name>
-                    <value>&lt;p&gt;what is a grouped header?&lt;/p&gt;</value>
-                </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
-                <identifier>flexipage_richText</identifier>
+                <identifier>flexipage_richText2</identifier>
             </componentInstance>
         </itemInstances>
         <name>header</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>subheader</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -27,19 +37,19 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;p&gt;I don&apos;t know what the diff is&lt;/p&gt;</value>
+                    <value>&lt;p&gt;right sidebar&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
-                <identifier>flexipage_richText2</identifier>
+                <identifier>flexipage_richText</identifier>
             </componentInstance>
         </itemInstances>
-        <name>main</name>
+        <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>smoke-15-template-recordHomeSimpleViewTemplate</masterLabel>
-    <sobjectType>Account</sobjectType>
+    <masterLabel>smoke-21-template-recordHomeWithSubheaderTemplateDesktop</masterLabel>
+    <sobjectType>Address</sobjectType>
     <template>
-        <name>flexipage:recordHomeSimpleViewTemplate</name>
+        <name>flexipage:recordHomeWithSubheaderTemplateDesktop</name>
         <properties>
             <name>enablePageActionConfig</name>
             <value>false</value>

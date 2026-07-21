@@ -72,7 +72,7 @@
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>smoke-13-template-recordHomeLeftSidebarTemplateDesktop</masterLabel>
+    <masterLabel>smoke-14-template-recordHomeLeftSidebarTemplateDesktop</masterLabel>
     <sobjectType>Account</sobjectType>
     <template>
         <name>flexipage:recordHomeLeftSidebarTemplateDesktop</name>
