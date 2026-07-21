@@ -3,6 +3,6 @@
   <type>RecordPage</type>
   <sobjectType>Contact</sobjectType>
   <template>
-    <name>recordHomeTemplateDesktop</name>
+    <name>recordHomeWithSubheaderTemplateDesktop</name>
   </template>
 </FlexiPage>

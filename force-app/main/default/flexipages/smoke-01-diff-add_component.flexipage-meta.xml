@@ -9,5 +9,10 @@
         <componentName>force:detailPanel</componentName>
       </componentInstance>
     </itemInstances>
+    <itemInstances>
+      <componentInstance>
+        <componentName>flowruntime:interview</componentName>
+      </componentInstance>
+    </itemInstances>
   </flexiPageRegions>
 </FlexiPage>
