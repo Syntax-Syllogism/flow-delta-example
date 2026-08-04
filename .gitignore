@@ -1,9 +1,5 @@
 <<<<<<< HEAD
 
-
-# FlowDelta smoke output
-flow-delta-out/
-flexipage-delta-out/
 .history/
 .sfdx/
 .sf/
@@ -15,60 +11,27 @@ flexipage-delta-out/
 .history/
 *.profile-meta.xml
 
-# FlowDelta smoke output
 <<<<<<< HEAD
 <<<<<<< HEAD
-flow-delta-out/
 
-# FlowDelta smoke output
-flow-delta-out/
-
-# FlowDelta smoke output
-flow-delta-out/
-
-# FlowDelta smoke output
-flow-delta-out/
-
-# FlowDelta smoke output
-flow-delta-out/
-
-# FlowDelta smoke output
-flow-delta-out/
-
-# FlowDelta smoke output
-flow-delta-out/
-
-# FlowDelta smoke output
-flow-delta-out/
-
-# FlowDelta smoke output
-flow-delta-out/
-
-# FlowDelta smoke output
-flow-delta-out/
 <<<<<<< HEAD
 >>>>>>> fdb9629 (first commit)
 =======
 
-# FlowDelta smoke output
-flow-delta-out/
 <<<<<<< HEAD
 >>>>>>> 93c7710 (smoke: seed fixture befores (20260609023824337))
 =======
 
-# FlowDelta smoke output
-flow-delta-out/
 <<<<<<< HEAD
 >>>>>>> 9eb547d (smoke: seed fixture befores (20260613123047988))
 =======
 
-# FlowDelta smoke output
-flow-delta-out/
 >>>>>>> 3cf68c8 (smoke: seed fixture befores (20260613131506494))
 =======
-flow-delta-out/
 >>>>>>> 1a4c6c5 (smoke: seed fixture befores (20260613173402056))
 =======
+>>>>>>> 06c4b16 (smoke: seed fixture befores (20260717020019115))
+
+# FlowDelta smoke output
 flow-delta-out/
 flexipage-delta-out/
->>>>>>> 06c4b16 (smoke: seed fixture befores (20260717020019115))
