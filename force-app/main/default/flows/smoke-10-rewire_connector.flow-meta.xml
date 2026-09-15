@@ -28,7 +28,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>Get_Children</targetReference>
+            <targetReference>Jawn_that_Jawn</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
@@ -78,7 +78,7 @@
         <locationY>0</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Jawn_that_Jawn</targetReference>
+            <targetReference>Jawnify</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -112,7 +112,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Jawnify</targetReference>
+            <targetReference>Get_Children</targetReference>
         </connector>
         <object>Account</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>

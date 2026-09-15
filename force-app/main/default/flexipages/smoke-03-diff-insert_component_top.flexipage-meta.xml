@@ -8,6 +8,11 @@
     <mode>Replace</mode>
     <itemInstances>
       <componentInstance>
+        <componentName>force:highlightsPanel</componentName>
+      </componentInstance>
+    </itemInstances>
+    <itemInstances>
+      <componentInstance>
         <componentName>force:detailPanel</componentName>
       </componentInstance>
     </itemInstances>
