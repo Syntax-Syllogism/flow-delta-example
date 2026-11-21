@@ -51,13 +51,6 @@
                     <stringValue>&quot;Jawn&quot;</stringValue>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>$Record.CreatedById</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
             <label>Yes</label>
         </rules>
     </decisions>
